@@ -5,7 +5,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 
 
 PRIVACY_NOTICE = (By.XPATH,"//a[@href='https://www.amazon.com/privacy']")
-PRIVACY_HEADER = (By.CSS_SELECTOR, "h1")
+
 
 
 @given('Open Amazon Terms & Conditions page')
